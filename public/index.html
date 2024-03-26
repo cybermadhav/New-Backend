@@ -1,0 +1,167 @@
+<!-- Certainly! Here's the HTML code with the CSS included inside the `<style>` tag, and the dummy images sourced from Unsplash: -->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Your Travel Website</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <style>
+        /* Reset default margin and padding */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+    
+        body {
+          font-family: Arial, sans-serif;
+        }
+    
+        header {
+          background-color: #333;
+          color: #fff;
+          padding: 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+    
+        .logo {
+          font-size: 24px;
+          font-weight: bold;
+        }
+    
+        nav ul {
+          list-style: none;
+          display: flex;
+        }
+    
+        nav ul li {
+          margin-right: 20px;
+        }
+    
+        nav ul li a {
+          color: #fff;
+          text-decoration: none;
+        }
+    
+        .hero {
+          background-image: url('https://source.unsplash.com/1600x900/?travel');
+          background-size: cover;
+          color: #fff;
+          text-align: center;
+          padding: 100px 20px;
+        }
+    
+        .hero h1 {
+          font-size: 36px;
+          margin-bottom: 20px;
+        }
+    
+        .hero h2 {
+          font-size: 24px;
+          margin-bottom: 40px;
+        }
+    
+        .btn {
+          display: inline-block;
+          padding: 10px 20px;
+          /* background-color: #ff6600; */
+          color: #fff;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+          transition: background-color 0.3s ease;
+        }
+    
+        .btn:hover {
+          background-color: #e65000;
+        }
+    
+        footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px 0;
+          text-align: center;
+        }
+    
+        .footer-content {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        }
+    
+        .contact-info p {
+          margin-bottom: 10px;
+        }
+    
+        .social-media a {
+          margin: 0 5px;
+        }
+    
+        .quick-links a {
+          color: #fff;
+          text-decoration: none;
+          margin-right: 10px;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <header>
+        <div class="logo">Bhraman</div>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Destinations</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section class="hero">
+        <h1>Discover Your Next Adventure</h1>
+        <h2>Explore, Experience, Enjoy</h2>
+        <a href="#" class="btn btn-danger">Explore Destinations</a>
+      </section>
+    
+      <!-- Other sections (Featured Destinations, Travel Packages, Why Choose Us, Testimonials, About Us, Newsletter Subscription) would go here -->
+    
+      <footer>
+        <div class="footer-content">
+          <div class="contact-info">
+            <p>Contact Information:</p>
+            <form action="/products/" method="post" enctype="multipart/form-data">
+                <div class="mb-3 d-flex flex-column align-items-start">
+                    <label for="exampleFormControlInput1" class="form-label">Full Name</label>
+                    <input type="text" name="fullName" class="form-control" id="exampleFormControlInput1" placeholder="Devin is here.....">
+                  </div>
+                <div class="mb-3 d-flex flex-column align-items-start">
+                    <label for="formFile" class="form-label">Default file input example</label>
+                    <input class="form-control" name="avatar" type="file" id="formFile">
+                  </div>
+                <button type="submit" class="btn btn-success">Upload Image</button>
+            </form>
+          </div>
+          <div class="social-media">
+            <p>Follow Us:</p>
+            <a href="#"><img src="https://source.unsplash.com/50x50/?facebook" alt="Facebook"></a>
+            <a href="#"><img src="https://source.unsplash.com/50x50/?instagram" alt="Instagram"></a>
+            <a href="#"><img src="https://source.unsplash.com/50x50/?twitter" alt="Twitter"></a>
+          </div>
+          <div class="quick-links">
+            <a href="#">Terms of Service</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    
+    
+    <!-- In this code, I've embedded the CSS within the `<style>` tag in the `<head>` section of the HTML document. I've also used Unsplash URLs for background images in the hero section and for social media icons. Make sure to replace placeholder texts like `[Your Travel Website Name]`, `[Your Address]`, `[Your Phone Number]`, and `[Your Email Address]` with your actual content. -->
